@@ -1,0 +1,204 @@
+      /* NAV BAR */
+      #logo{
+        width: 350px;
+        margin-right: -280px;
+        margin-left: -100px;
+       }
+       
+       #title{
+         border: 3px;
+         border-style: solid;
+         border-radius: 25px;
+         font-size: 17px;
+         
+         display: flex;
+         justify-content: space-around;
+         background-color: #aeda88;
+         padding: 10px;
+         padding-left: 90px;
+         margin-left: 25px;
+         margin-right: 25px;
+        }
+       
+               /* GRADES */
+       .Elementary {
+         float: left;
+         overflow: hidden;
+       }
+       
+       .MiddleSchool {
+         float: left;
+         overflow: hidden;
+       }
+       
+       .HighSchool{
+         float: left;
+         overflow: hidden;
+       }
+       
+             /* HOME PAGE */
+       .books {
+         margin-top: 150px;
+         margin-left: 80px;
+         width: 200px;
+         border: 5px;
+         border-style: solid;
+         border-color: black;
+         display: inline-block;
+         
+        }
+       
+       .name {
+         font-size: 25px;
+         width: 250px;
+         margin-left: 55px;
+         display: inline-block;
+        }
+       
+       #Book_arrangement{
+         display:flex;
+         justify-content: space-between;
+       }
+       
+       #books{
+         display:flex;  
+       }
+             /* DESCRIPTION PAGE */
+       .url {font-size: 18px;
+       color: blue;
+       display: inline-block;
+       margin-left: 15px;
+       padding-left: 78px;
+       padding-right: 78px;
+       background-color: lightblue;
+       border: 3px;
+       border-style: solid;
+       border-color: black;
+       }
+       
+       .description {
+         display: inline-block;
+         font-size: 21px;
+       }
+       
+       .author {
+         display: block;
+         font-size: 30px;
+         margin-bottom: 120px;
+       }
+       
+       #middlePage {
+         margin-top: 140px;
+         background-color: teal;
+         padding: 10px;
+       }
+       
+       #column {
+         display: inline-block;
+         flex-direction: column;
+         margin-left: 25px;
+         width: 450px;
+         height: 560px;
+       }
+       
+       #booksDesc {
+         margin-top: 36px;
+         margin-left: 16px;
+         width: 450px;
+         border: 5px;
+         border-style: solid;
+         border-color: black;
+         display: inline-block;
+       }
+       #nameDesc {
+         margin-left: 15px;
+         font-size: 22px;
+         width: 250px;
+         display: inline-block;
+        }
+       
+       a {text-decoration: none;}
+       
+             /* DROP DOWN MENUS */
+       .grades {
+         float: left;
+         overflow: hidden;
+       }
+       
+       .grades .dropbtn {
+         font-size: 30px;
+         border: none;
+         outline: none;
+         color: black;
+         padding: 10px 16px;
+         padding-top: 40px;
+         background-color: inherit;
+         font-family: inherit; /* Important for vertical align on mobile phones */
+         margin: 0; /* Important for vertical align on mobile phones */
+       }
+       
+       .List a {
+         float: none;
+         color: black;
+         padding: 12px 86px;
+         text-decoration: none;
+         display: block;
+         text-align: left;
+       }
+       
+       .List {
+         display: none;
+         position: absolute;
+         background-color: #f9f9f9;
+         min-width: 160px;
+         z-index: 1;
+       }
+       
+       .grades:hover .List {
+         display: block;
+       }
+       
+               /* ENTIRE PAGE */
+       #hide {
+         display:none;
+       }
+       
+       body{/*   /*width: 100%; */
+       /*   height: 100%; */ 
+         background-image: url("https://cdn.glitch.global/54f1a521-ac25-4bd6-b2a5-d21bed494b94/fea591c1dfe7cc19fe84fe880b1b8732.jpg?v=1660575083519");
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center center;
+         padding: 0;
+         margin: auto;
+       }
+       
+       h1 {
+         padding: 20px;
+        }
+       
+       button:hover {
+           background-color: #BFF291 ;
+           opacity: 0.8;
+        }
+       
+       img:hover {
+           opacity: 0.8;
+        }
+       
+       footer {
+         padding: 25px;
+         background-color: teal;
+         font-size: 30px;
+         margin-top: 500px;
+       }
+       
+       @media(max-width: 906px){
+       
+         h1 {
+           font-size: 550px;
+         padding: 20px;
+        }
+       }
+       
+       
